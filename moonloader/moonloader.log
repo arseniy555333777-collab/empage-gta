@@ -1,0 +1,57 @@
+[03:16:24.615854] (system)	Session started.
+[03:16:24.616855] (debug)	Module handle: 6A980000
+
+MoonLoader v.026.5-beta loaded.
+Developers: FYP, hnnssy, EvgeN 1137
+
+Copyright (c) 2016, BlastHack Team
+http://blast.hk/moonloader/
+
+[03:16:24.616855] (info)	Working directory: C:\Users\user\Desktop\snsz gta rebuilt\moonloader
+[03:16:24.616855] (debug)	FP Control: 0009001F
+[03:16:24.616855] (debug)	Game: GTA SA 1.0.0.0 US
+[03:16:24.616855] (system)	Installing pre-game hooks...
+[03:16:24.617854] (system)	Hooks installed.
+[03:16:25.704640] (debug)	Initializing opcode handler table
+[03:16:25.704640] (debug)	package.path = C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\?.lua;C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\?\init.lua;C:\Users\user\Desktop\snsz gta rebuilt\moonloader\?.lua;C:\Users\user\Desktop\snsz gta rebuilt\moonloader\?\init.lua;.\?.lua;C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\?.luac;C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\?\init.luac;C:\Users\user\Desktop\snsz gta rebuilt\moonloader\?.luac;C:\Users\user\Desktop\snsz gta rebuilt\moonloader\?\init.luac;.\?.luac
+[03:16:25.704640] (debug)	package.cpath = C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\?.dll;
+[03:16:25.704640] (system)	Loading script 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\AutoReboot.lua'...
+[03:16:25.705641] (debug)	New script: 07640314
+[03:16:25.714635] (system)	ML-AutoReboot: Loaded successfully.
+[03:16:25.714635] (system)	Loading script 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\GameFixer.lua'...
+[03:16:25.714635] (debug)	New script: 01C0F5CC
+[03:16:25.737620] (system)	GameFixer.lua: Loaded successfully.
+[03:16:25.737620] (system)	Loading script 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\gplugin.luac'...
+[03:16:25.737620] (debug)	New script: 01C0F0BC
+[03:16:25.825568] (system)	Ghetto Plugin: Loaded successfully.
+[03:16:25.825568] (system)	Loading script 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\reload_all.lua'...
+[03:16:25.825568] (debug)	New script: 075C1AA4
+[03:16:25.832563] (system)	ML-ReloadAll: Loaded successfully.
+[03:16:25.832563] (system)	Loading script 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\[ARZ] CEF HUD Editor.lua'...
+[03:16:25.832563] (debug)	New script: 075C1174
+[03:16:25.834562] (error)	Arizona HUD Editor: ...top\snsz gta rebuilt\moonloader\[ARZ] CEF HUD Editor.lua:5: module 'carbJsonConfig' not found:
+	no field package.preload['carbJsonConfig']
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\carbJsonConfig.lua'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\carbJsonConfig\init.lua'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\carbJsonConfig.lua'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\carbJsonConfig\init.lua'
+	no file '.\carbJsonConfig.lua'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\carbJsonConfig.luac'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\carbJsonConfig\init.luac'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\carbJsonConfig.luac'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\carbJsonConfig\init.luac'
+	no file '.\carbJsonConfig.luac'
+	no file 'C:\Users\user\Desktop\snsz gta rebuilt\moonloader\lib\carbJsonConfig.dll'
+stack traceback:
+	[C]: in function 'require'
+	...top\snsz gta rebuilt\moonloader\[ARZ] CEF HUD Editor.lua:5: in main chunk
+[03:16:25.834562] (error)	Arizona HUD Editor: Script died due to an error. (075C1174)
+[03:16:26.750371] (system)	Installing post-load hooks...
+[03:16:26.750371] (system)	Hooks installed.
+[03:16:28.799902] (script)	Ghetto Plugin: [CHAT] {FFFFFF}Загружен. Открыть меню: /gp
+[03:33:46.346079] (system)	Unloading...
+[03:33:46.346079] (system)	ML-AutoReboot: Script terminated. (07640314)
+[03:33:46.347078] (system)	GameFixer.lua: Script terminated. (01C0F5CC)
+[03:33:46.351075] (system)	Ghetto Plugin: Script terminated. (01C0F0BC)
+[03:33:46.353074] (system)	ML-ReloadAll: Script terminated. (075C1AA4)
+[03:33:46.364068] (system)	Session terminated.

@@ -1,0 +1,41 @@
+{
+  "auto_capter": {
+    "hotkey": 0,
+    "delay": 0.6
+  },
+  "auto_grab_materials": {
+    "enabled": false
+  },
+  "other": {
+    "remove_bat": true,
+    "remove_trailer_labels": false,
+    "remove_dead": true
+  },
+  "sbiv": {
+    "hotkey": 82,
+    "enabled": true
+  },
+  "drugs_timer": {
+    "hotkey": 88
+  },
+  "commands_shortcuts": {},
+  "binder": {
+    "binds": {},
+    "command": "binder"
+  },
+  "anti_zero_ammo": {
+    "amount": 10,
+    "hotkey": 113,
+    "auto": {
+      "enabled": true,
+      "threshold": 10
+    }
+  },
+  "how_exit_craft": {
+    "amount": 15,
+    "enabled": false
+  },
+  "death_events": {
+    "drugs": true
+  }
+}
